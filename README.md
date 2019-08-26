@@ -17,7 +17,7 @@ You must have node and npm installed in order to run this application
 
 
 ### Installing
-Clone this repository to your computer, navigate to the hacker-news-scraper directory and run:
+Clone this repository to your computer, navigate to the hacker-news-scraper directory and run the command:
 ```
 $ npm install
 ```
@@ -34,4 +34,15 @@ To run the application, navigate to the hacker-news-scraper directory and run th
 ```
 $ node hackernews -n
 ```
-where -n is the number of posts you want to print
+where -n is the number of posts you want to print.
+
+This will return a list of json objects in the following format:
+
+```
+[ { rank: 1,
+    title: 'Show HN: Zero-Config Documentation Websites for Python',
+    uri: 'https://timothycrosley.github.io/portray/',
+    author: 'timothycrosley',
+    points: 126,
+    comments: 22 } ]
+```
