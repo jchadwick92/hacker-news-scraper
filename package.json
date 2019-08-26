@@ -1,0 +1,19 @@
+{
+  "name": "hackernews-webscraper",
+  "version": "1.0.0",
+  "description": "A simple webscraper to get the top posts on hacker news",
+  "main": "hackernews.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Joe Chadwick",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
